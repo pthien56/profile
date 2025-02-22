@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THPT Lý Thường Kiệt</title>
+    <!-- <link rel="stylesheet" href="/styles.css" /> -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      .header {
+        position: relative;
+        width: 100%;
+        background: url("/images/images.jpg") no-repeat center/cover;
+        height: 200px;
+        display: flex;
+        align-items: center;
+      }
+      header h1 {
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .menu {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        background: #adf539;
+        padding: 10px;
+        list-style: none;
+      }
+      .menu li {
+        position: relative;
+        padding: 10px 20px;
+        list-style: none;
+      }
+      .menu a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .menu li:hover {
+        background: rgb(112, 246, 172);
+      }
+      .vertical_menu {
+        display: none;
+        position: absolute;
+        background: white;
+        border: 1px solid #ff6600;
+        list-style: none;
+        width: 150px;
+        text-align: center;
+      }
+      .vertical_menu li {
+        padding: 7px;
+      }
+      .vertical_menu li:hover {
+        background: rgb(158, 242, 86);
+      }
+      .vertical_menu a {
+        color: black;
+      }
+      .vertical_menu a:hover {
+        color: white;
+      }
+      .menu li:hover .vertical_menu {
+        display: block;
+      }
+      .history {
+        display: flex;
+        align-items: flex-start;
+        padding: 20px;
+        text-align: left;
+      }
+      .history .picture {
+        max-width: 200px;
+        height: auto;
+        margin-right: 5px;
+      }
+      .history .content {
+        margin: 0%;
+        padding: 0%;
+        font-size: 20px;
+        font-weight: normal;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        width: 100%;
+        padding: 5px 0;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div>
+          <h1>Trường THPT Lý Thường Kiệt</h1>
+        </div>
+      </div>
+      <ul class="menu">
+        <li><a href="/lythuongkiet.html">Trang chủ</a></li>
+        <li>
+          <a href="/about.html">Giới thiệu</a>
+          <ul class="vertical_menu">
+            <li><a href="/lichsu.html">Lịch sử</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/contact.html">Liên hệ</a>
+        </li>
+        <li><a href="/feedback.html">Góp ý</a></li>
+        <li><a href="/faq.html">Hỏi đáp</a></li>
+      </ul>
+    </header>
+    <div class="history">
+      <img
+        class="picture"
+        src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPwwoLTr_yqPZnAs4tZeZfdJUW2N8BAdKYTLGI-4aPaBjKsiAD"
+        alt="Hình ảnh"
+      />
+      <p class="content">
+        Trường THPT Lý Thường Kiệt tiền thân là Trường THPT Dân lập thị xã Thanh
+        Hóa, được thành lập theo Quyết định số 204-TC/UBTX của UBND thị xã Thanh
+        Hóa (nay là TP Thanh Hóa). Trải qua 30 năm xây dựng và phát triển, nhà
+        trường đã đạt nhiều thành tích trong giáo dục và đào tạo. Từ 43 học sinh
+        tốt nghiệp năm đầu tiên, đến nay số học sinh ra trường đã lên tới 8.680
+        em. Hằng năm, tỷ lệ học sinh đậu tốt nghiệp THPT đạt 95%; tỷ lệ học sinh
+        đậu vào các trường đại học, cao đẳng và học nghề hơn 70%. Chất lượng mũi
+        nhọn không ngừng nâng cao với 586 học sinh đạt giải trong các kỳ thi học
+        sinh giỏi. Tại lễ kỷ niệm, thầy giáo Lê Thanh Hà, Hiệu trưởng trường,
+        được trao tặng Huân chương Lao động hạng Ba. Bộ GD&ĐT cũng tặng bằng
+        khen cho tập thể nhà trường vì thành tích xuất sắc trong công tác giáo
+        dục.
+      </p>
+    </div>
+    <footer>
+      <p>&copy; 2023 Trường PTTH Lý Thường Kiệt. All rights reserved.</p>
+      <p>Địa chỉ: Số 123, đường Lý Thường Kiệt, TP. Thanh Hóa.</p>
+    </footer>
+  </body>
+</html>
